@@ -6,8 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Newnav(){
     return(
-      <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+      <Navbar expand="lg" className="bg-body-tertiary" >
+      <Container style={{backgroundColor: "#8ab2b6"}}>
         <Navbar.Brand href="#home">Ocular Disease App</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -33,3 +33,4 @@ function Newnav(){
 }
 
 export default Newnav;
+
